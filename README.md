@@ -27,7 +27,7 @@
 
 ## 🛠 Wiring Diagram & Pinouts
 
-![diagram](https://github.com/user-attachments/assets/024bed2b-0849-4aa5-bb4d-82bf2a025141)
+![diagram](https://github.com/user-attachments/assets/b6d4786c-2db8-4a35-87a4-c4d306f03a82)
 
 
 <table>
