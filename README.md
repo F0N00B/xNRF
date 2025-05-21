@@ -1,8 +1,11 @@
 <div align="center">
+  
+![xnrf](https://github.com/user-attachments/assets/62c7c6a0-44fa-45d8-a7c8-347fbcda6dd6)
+<h1>xNRF </h1>
 
-  # ☢️ xNRF 
 ###
-![IMG_2068](https://github.com/user-attachments/assets/3d410abd-1113-4b95-bcba-5ea65bdcd4c3)
+
+
 ###
 #### 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬
 ##### 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇
