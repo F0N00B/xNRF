@@ -45,15 +45,15 @@
 <tr><td>MISO</td><td>GPIO 19</td><td></td><td>RX0</td><td>RX - GPIO 13 </td></tr>
 <tr><td>MOSI</td><td>GPIO 23</td><td></td><td>EN (RST)</td><td>C0 - GPIO 16 </td></tr>
 <tr><td>&nbsp;</td><td></td></tr>
-<tr><td>NRF #1</td><td></td></tr>
+<tr><th>NRF #1</th><td></td></tr>
 <tr><td>CE</td><td>GPIO 5</td></tr>
 <tr><td>CSN</td><td>GPIO 17</td></tr>
 <tr><td>&nbsp;</td><td></td></tr>
-<tr><td>NRF #2</td><td></td></tr>
+<tr><th>NRF #2</th><td></td></tr>
 <tr><td>CE</td><td>GPIO 16</td></tr>
 <tr><td>CSN</td><td>GPIO 4</td></tr>
 <tr><td>&nbsp;</td><td></td></tr>
-<tr><td>NRF #3</td><td></td></tr>
+<tr><th>NRF #3</th><td></td></tr>
 <tr><td>CE</td><td>GPIO 15</td></tr>
 <tr><td>CSN</td><td>GPIO 2</td></tr>
   
