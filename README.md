@@ -64,7 +64,7 @@
 ## 🚀 Building Steps
 
 ##### 1. Build your hardware
-##### 2. Flash your ESP32 using the WebFlasher / from Source.
+##### 2. Flash your ESP32 Wroom using the [WebFlasher](https://f0n00b.github.io/xNRF/WebFlasher/) / from Source.
 ##### 3. Download the FlipperZero App (xNRF.js) and place it in "SD Card/apps/Scripts"
 ##### 4. Connect your built and firmware flashed device to your Flipper Zero device
 ##### 5. Turn v5 ON your FlipperZero GPIO
