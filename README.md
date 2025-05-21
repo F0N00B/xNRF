@@ -8,8 +8,14 @@
 ##### 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇
 ###
 &nbsp;
+
+![f0_xnrf](https://github.com/user-attachments/assets/a894a59c-9a4a-473d-974b-00ee1378100a)
 ###
+&nbsp;
+###
+
 </div>
+
 
 
 ## 💡 Hardware used
