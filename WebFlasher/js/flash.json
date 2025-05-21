@@ -1,0 +1,14 @@
+{
+  "name": "xNRF Jammer",
+  "version": "v1.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../../Bins/bootloader.bin", "offset": 4096 },
+        { "path": "../../Bins/partitions.bin", "offset": 32768 },
+        { "path": "../../Bins/firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}

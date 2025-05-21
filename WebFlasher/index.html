@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>xNRF Jammer WebFlasher</title>
+    <meta
+      name="description"
+      content="Easily allow users to flash new firmware for their ESP-devices on the web."
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta property="og:title" content="xNRF Jammer WebFlasher" />
+    <meta property="og:site_name" content="xNRF Jammer WebFlasher" />
+    <meta
+      property="og:url"
+      content=""
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content=""
+    />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta
+      name="twitter:image"
+      content=""
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="xNRF Jammer WebFlasher" />
+    <meta
+      name="twitter:description"
+      content=""
+    />
+    <meta name="color-scheme" content="dark light" />
+    <style>
+      body {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Ubuntu, sans-serif;
+        padding: 0;
+        margin: 0;
+        line-height: 1.4;
+      }
+      .content {
+        max-width: 600px;
+		width:100%;
+		position:relative;
+        margin: 0 auto;
+        padding: 12px;
+		text-align:center;
+      }
+      h2 {
+        margin-top: 2em;
+      }
+      h3 {
+        margin-top: 1.5em;
+      }
+      .projects {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+      }
+      .projects a {
+        color: initial;
+        text-decoration: none;
+      }
+      .project .logo img {
+        height: 50px;
+      }
+      .project .name {
+        margin-top: 8px;
+      }
+      a {
+        color: yellow;
+      }
+
+	#main {
+		margin:5% auto;
+	}
+    </style>
+    <script src="js/install-button.js?module"></script>
+  </head>
+  <body>
+    <div class="content">
+
+		
+      <h2 id="main">
+	  <h1>☢️ xNRF<div style="font-size:16px;font-weight:400">xNRF WebFlasher</div></h1>
+	  
+
+		<div>
+		
+		
+		
+		<br />
+      <esp-web-install-button class="mani"
+        manifest="flash.json"
+      >
+        <i slot="unsupported">
+          The flasher is not available because your browser does not support Web
+          Serial. Open this page in Google Chrome or Microsoft Edge instead<span
+            class="not-supported-i hidden"
+          >
+            (but not on your iOS device)</span
+          >.
+        </i>
+      </esp-web-install-button>
+	  
+      <div class="footer" style="opacity:0.55;font-size:10px;position:fixed;bottom:15px;width:100%;left:0;padding-top:0px;border-top:0px"> 
+        <div class="initiative">
+          ESP Web Tools is a project by
+          <a href="https://esphome.io">ESPHome</a>,
+          <a href="https://www.openhomefoundation.org">Open Home Foundation</a
+          >.<br />
+          Development is funded by
+          <a href="https://www.nabucasa.com">Nabu Casa</a>.
+        </div>
+        <div>
+          ESP Web Tools is
+          <a href="https://github.com/esphome/esp-web-tools">open source</a>.
+        </div>
+      </div>
+	  
+	  
+    </div>
+  </body>
+</html>
