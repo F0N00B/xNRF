@@ -135,7 +135,7 @@ eventLoop.subscribe(views.jammer.chosen, function (_sub, index, gui, eventLoop, 
 		
     } else if (index === 4) {
         gui.viewDispatcher.switchTo(views.Video);
-		SerialCMD("Video"
+		SerialCMD("Video");
 		
     } else if (index === 5) {
         gui.viewDispatcher.switchTo(views.RC);
