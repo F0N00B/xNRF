@@ -10,8 +10,8 @@
 
 
 ###
-#### 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬
-##### 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇
+<h4> 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬 </h4>
+<h5> 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
 ###
 &nbsp;
 
@@ -75,22 +75,20 @@
 
 ## 🚀 Building Steps
 
-##### 1. Build your hardware
-##### 2. Flash your ESP32 Wroom using the [WebFlasher](https://f0n00b.github.io/xNRF/WebFlasher/) / from Source.
-##### 3. Download the FlipperZero App (xNRF.js) and place it in "SD Card/apps/Scripts"
-##### 4. Connect your built and firmware flashed device to your Flipper Zero device
-##### 5. Turn v5 ON your FlipperZero GPIO
-##### 6. Start xNRF.js app
-#### 7. Jam the Planet ☠️
-###
-&nbsp;
-###
-###
-&nbsp;
-###
-###
-&nbsp;
-###
+<h5> 1. Build your hardware </h5>
+<h5> 2. Flash your ESP32 Wroom using the <a href="https://f0n00b.github.io/xNRF/WebFlasher/">WebFlasher</a> / from Source. </h5>
+<h5> 3. Download the FlipperZero App (xNRF.js) and place it in "SD Card/apps/Scripts" </h5>
+<h5> 4. Connect your built and firmware flashed device to your Flipper Zero device </h5>
+<h5> 5. Turn v5 ON your FlipperZero GPIO </h5>
+<h5> 6. Start xNRF.js app </h5>
+<h3> 7. Jam the Planet ☠️ </h3>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
   
 ###### made by x01r.  
 ###### For educational purposes only, JAMMING IS ILLEGAL!
