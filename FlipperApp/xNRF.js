@@ -16,11 +16,8 @@ var onlines = "0";
 
 let res_pin = gpio.get("pc0"); // C0 / 16 PIN - ESP32 Reset PIN
 res_pin.init({ direction: "out", outMode: "push_pull"});
-
-
 res_pin.write(true);
 delay(300);
-let res_pins = gpio.get("pc0"); // C0 / 16 PIN - ESP32 Reset PIN
 res_pins.init({ direction: "in", inMode: "analog" });
 res_pins.write(false);
 delay(300);
