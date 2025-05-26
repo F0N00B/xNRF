@@ -11,7 +11,8 @@
 
 ###
 <h4> 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬 </h4>
-<h5> 🔇 WiFi, NEW CHANNEL SCAN!! BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
+<h5> 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
+<h5>📡 CHANNEL SCAN MODE 📡</h5>
 ###
 &nbsp;
 
@@ -30,7 +31,7 @@
 <tr><td>x1</td><td>FlipperZero</td></tr>
 <tr><td>x1</td><td>ESP32 Wroom</td></tr>
 <tr><td>x1</td><td>0.96 OLED Display</td></tr>
-<tr><td>x1</td><td>Pixel Led</td></tr>
+<tr><td>x1-3</td><td>NeoPixel LED</td></tr>
 <tr><td>x1-3</td><td>NRF24</td></tr>
 </tbody>
 </table>
@@ -69,6 +70,23 @@
 </table>
 
 * IRQ is Not connected
+
+###
+&nbsp;
+###
+
+<table>
+<thead><th>0.96 OLED</th><th>ESP32 (GPIO)</th><th> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </th><th>NeoPixel LED</th><th>ESP32 (GPIO)</th></thead>
+<tbody>
+<tr><td>VCC</td><td>3.3V</td><td></td><td>VIN</td><td>3.3V</td></tr>
+<tr><td>GND</td><td>GND</td><td></td><td>GND</td><td>GND</td></tr>
+<tr><td>SCK</td><td>GPIO 22</td><td></td><td>DIN</td><td>GPIO 14 </td></tr>
+<tr><td>SDA</td><td>GPIO 21</td><td></td></tr>
+</tbody>
+</table>
+
+
+
 ###
 &nbsp;
 ###
@@ -92,6 +110,6 @@
 <br />
 <br />
   
-###### made by x01r. Special Thanks To PM63DAKKA! 
+###### made by x01r. Special Thanks To PM63DAKKA! 💖
 ###### For educational purposes only, JAMMING IS ILLEGAL!
 ###### Do not ask me to implement new functions in this code and do not ask me for help.
