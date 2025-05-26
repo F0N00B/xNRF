@@ -11,7 +11,7 @@
 
 ###
 <h4> 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬 </h4>
-<h5> 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
+<h5> 🔇 WiFi, NEW CHANNEL SCAN!! BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
 ###
 &nbsp;
 
@@ -29,6 +29,8 @@
 <tbody>
 <tr><td>x1</td><td>FlipperZero</td></tr>
 <tr><td>x1</td><td>ESP32 Wroom</td></tr>
+<tr><td>x1</td><td>0.96 OLED Display</td></tr>
+<tr><td>x1</td><td>Pixel Led</td></tr>
 <tr><td>x1-3</td><td>NRF24</td></tr>
 </tbody>
 </table>
@@ -39,7 +41,7 @@
 
 ## 🛠 Wiring Diagram & Pinouts
 
-![diagram](https://github.com/user-attachments/assets/b6d4786c-2db8-4a35-87a4-c4d306f03a82)
+![DIAGRAM](https://github.com/user-attachments/assets/10ee8470-2820-4744-a197-4f7944d21286)
 
 
 <table>
@@ -90,6 +92,6 @@
 <br />
 <br />
   
-###### made by x01r.  
+###### made by x01r. Special Thanks To PM63DAKKA! 
 ###### For educational purposes only, JAMMING IS ILLEGAL!
 ###### Do not ask me to implement new functions in this code and do not ask me for help.
