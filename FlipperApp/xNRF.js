@@ -16,8 +16,11 @@ var onlines = "0";
 
 let res_pin = gpio.get("pc0"); // C0 / 16 PIN - ESP32 Reset PIN
 res_pin.init({ direction: "out", outMode: "push_pull"});
+
+
 res_pin.write(true);
 delay(300);
+let res_pins = gpio.get("pc0"); // C0 / 16 PIN - ESP32 Reset PIN
 res_pins.init({ direction: "in", inMode: "analog" });
 res_pins.write(false);
 delay(300);
@@ -57,11 +60,11 @@ while (set === 0) {
 			onlines = "3";
 		}
         print(""+onlines + " NRF's ONLINE");
-		
 		if (onlines !== "0") { // online NRF's detected
-			
+				delay(200);
+				serial.write("RADIOS"); // Setup ESP32 Jammer
 				set++;
-				delay(1000);
+				delay(200);
 				serial.end();
 				print("Loading Jammer Menu ...");
 				delay(2000);
@@ -142,7 +145,7 @@ eventLoop.subscribe(views.jammer.chosen, function (_sub, index, gui, eventLoop, 
         gui.viewDispatcher.switchTo(views.Full);
     } else if (index === 7) {
         eventLoop.stop();
-		SerialCMD("OFF");
+		SerialCMD("OFFF");
     }
 }, gui, eventLoop, views);
 
