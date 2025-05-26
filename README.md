@@ -110,6 +110,6 @@
 <br />
 <br />
   
-###### made by x01r. Special Thanks To PM63DAKKA! 💖
+###### made by x01r. Special Thanks To PM63DAKKA!! 💖
 ###### For educational purposes only, JAMMING IS ILLEGAL!
 ###### Do not ask me to implement new functions in this code and do not ask me for help.
