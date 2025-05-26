@@ -12,7 +12,7 @@
 ###
 <h4> 🐬 FlipperZero multiple (x3) NRF24 - ESP32 Serial Jammer 🐬 </h4>
 <h5> 🔇 WiFi, BLE, Bluetooth, Video Streamers, Remotly Controlled devices, Full 2.4Ghz spectrum 🔇</h5>
-<h5>📡 CHANNEL SCAN MODE 📡</h5>
+<h5>📡 CHANNEL SCAN MODE (OLED Display) 📡</h5>
 ###
 &nbsp;
 
